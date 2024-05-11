@@ -1,0 +1,260 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    min-height: 500px;
+    background: white;
+}
+
+
+.head{
+    width: 100%;
+    height: 48px;
+    background-color: #fafafa;
+    float: left;
+}
+
+.smedia{
+    width: 180px;
+    height: 48px;
+    /* background-color: darkgray; */
+    float: right;
+    margin-right: 120px;
+}
+
+.box{
+    width: 38px;
+    height: 48px;
+    float: left;
+    color: gray;
+    /* background-color: blueviolet; */
+}
+
+.call{
+    width: 160px;
+    height: 48px;
+    /* background-color: black; */
+    float: left;
+    margin-left: 15px;
+}
+
+.email{
+    width: 180px;
+    height: 48px;
+    /* background-color: black; */
+    float: left;
+    margin-left: 120px;
+}
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    /* background-color: aquamarine; */
+    float: left;
+}
+
+.green{
+    width: 120px;
+    height: 40px;
+    /* background-color: beige; */
+    float: left;
+    margin-left: 125px;
+    margin-right: 320px;
+    color: #00ab41;
+}
+
+.words{
+    width: 800px;
+    height: 40px;
+    /* background-color: azure; */
+    float: left;
+}
+
+.words ul {
+    padding: 0px;
+}
+
+.words ul li {
+    float: left;
+    list-style-type: none;
+}
+
+.words ul li a{
+    margin: 8px;
+    padding: 10px;
+    /* background: antiquewhite; */
+    text-decoration: none;
+    color: black;
+}
+
+.words ul li a:hover{
+    color: #00ab41;
+}
+
+.getStarted{
+    width: 140px;
+    height: 40px;
+    float: left;
+    background-color: white;
+    margin-left: 10px;
+    border: 2px solid #00ab41;
+    border-radius: 7px;
+    color: #00ab41;
+}
+
+.center{
+    width: 100%;
+    height: 620px;
+    background-color: green;
+    background-image: url(https://media.sketchfab.com/models/a85450184c6e4ddf87b49c402641e5b4/thumbnails/33240f2fddb246688fe26981364ae5a6/1704cd7a96ac4f51a8e4687caa262f7e.jpeg);
+    float: left;
+    position: relative;
+}
+
+.tul{
+    width: 100%;
+    height: inherit;
+    background: #00ab41;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: ;
+}
+
+.left{
+    width: 80px;
+    height: inherit;
+    /* background-color: pink; */
+    float: left;
+}
+
+.right{
+    width: 80px;
+    height: inherit;
+    /* background-color: pink; */
+    float: right;
+}
+
+.icon{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    opacity: 0.2;
+    border-radius: 50%; 
+}
+
+.center2{
+    width: 1200px;
+    height: 300px;
+    /* background-color: burlywood; */
+    float: left;
+    margin-left: 41px;
+    margin-top: 150px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.welcome{
+    width: 480px;
+    height: 100px;
+    /* background-color: lightcoral; */
+    float: left;
+    color: white;
+    margin-left: 360px;
+    position: relative;
+    z-index: 1;
+}
+
+.word2{
+    width: 100%;
+    height: 100px;
+    /* background-color: lightskyblue; */
+    float: left;
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.readMore{
+    width: 100%;
+    height: 60px;
+    /* background-color: greenyellow; */
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+.rm{
+    width: 160px;
+    height: 55px;
+    background-color: #00ab41;
+    border-radius: 8px;
+    float: left;
+    color: white;
+}
+
+.icon3{
+    width: 100px;
+    height: 40px;
+    /* background-color: aqua; */
+    position: absolute;
+    bottom: 6px;
+    left: 665px;
+    z-index: 1;
+}
+
+.opacity{
+    opacity: 0.6;
+    color: white;
+}
+
+.footer{
+    width: 100%;
+    height: 320px;
+    /* background-color: bisque; */
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.footer2{
+    width: 1200px;
+    height: 220px;
+    /* background-color: blueviolet; */
+    float: left;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    width: 380px;
+    height: 200px;
+    /* background-color: blue; */
+    float: left;
+}
+
+.comp{
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    color: #00ab41;
+    float: left;
+    font-size: 38px;
+}
+
+.dis{
+    display: flex;
+    align-items: center;
+}
+
+.disFlex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
